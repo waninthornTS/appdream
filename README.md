@@ -15,7 +15,7 @@ npm run dev
 
 https://waninthornts.github.io/appdream/
 
-ทุกครั้งที่ push ขึ้น  GitHub Actions () จะตรวจเนื้อหา + คอร์ด, build แล้ว deploy ให้อัตโนมัติ
+ทุกครั้งที่ push ขึ้น `main` GitHub Actions (`.github/workflows/deploy.yml`) จะตรวจเนื้อหา + คอร์ด, build แล้ว deploy ให้อัตโนมัติ
 
 ติดตั้งลง iPhone: เปิดลิงก์ด้านบนใน Safari → ปุ่มแชร์ → **เพิ่มไปยังหน้าจอโฮม** (ใช้ออฟไลน์ได้)
 
