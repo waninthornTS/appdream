@@ -11,16 +11,13 @@ npm run dev
 
 เปิด http://localhost:5173 บนคอม หรือเปิดลิงก์ `Network:` ที่ terminal แสดง (เช่น `http://192.168.x.x:5173`) จาก Safari บน iPhone ที่ต่อ Wi-Fi เดียวกัน
 
-## ติดตั้งลง iPhone แบบแอปจริง (ใช้ออฟไลน์ได้)
+## เว็บจริง (GitHub Pages)
 
-Service worker ต้องการ HTTPS เลยต้อง deploy ก่อน เช่น Vercel / Netlify / Cloudflare Pages:
+https://waninthornts.github.io/appdream/
 
-```bash
-npm run build      # ได้โฟลเดอร์ dist/
-npx vercel --prod  # หรือลาก dist/ ไปวางใน Netlify Drop
-```
+ทุกครั้งที่ push ขึ้น  GitHub Actions () จะตรวจเนื้อหา + คอร์ด, build แล้ว deploy ให้อัตโนมัติ
 
-จากนั้นเปิดลิงก์ใน Safari → ปุ่มแชร์ → **เพิ่มไปยังหน้าจอโฮม**
+ติดตั้งลง iPhone: เปิดลิงก์ด้านบนใน Safari → ปุ่มแชร์ → **เพิ่มไปยังหน้าจอโฮม** (ใช้ออฟไลน์ได้)
 
 ## โครงสร้าง
 
